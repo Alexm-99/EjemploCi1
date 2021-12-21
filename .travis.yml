@@ -1,0 +1,8 @@
+language: node_js
+node_js: "12"
+
+script:
+  - echo Ejecuntando travis
+  - npm install
+  - npm test
+  
